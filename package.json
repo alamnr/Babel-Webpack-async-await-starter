@@ -1,0 +1,23 @@
+{
+  "name": "babel_webpack_starter",
+  "version": "1.0.0",
+  "description": "This repo's code is written by following the \"Use Babel & Webpack To Compile ES2015 - ES2017\" youtube video tutorials which is created by Sir Brad Traversy (Youtube Channel:Traversy Media). \r <br/>You can found those video tutorial at : https://www.youtube.com/user/TechGuyWeb/playlists (Don't forget to like or dislike, if you like please subscribe). \r <br/>You can also follow him on Facebook: https://www.facebook.com/traversymedia/\r <br/>You can also visit: https://www.patreon.com/traversymedia/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --output-public-path=/build/"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
